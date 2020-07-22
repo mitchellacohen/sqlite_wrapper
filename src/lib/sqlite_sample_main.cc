@@ -9,8 +9,7 @@ using namespace ::std;
 
 using ::absl::Status;
 
-const char DATABASE_PATH[] =
-    "/Users/mitchmac2016/Documents/bazel/cpp-template/sample_main.db";
+const char DATABASE_PATH[] = "sample_main.db";
 
 void Check(const Status& status) {
   if (status != absl::OkStatus()) {
